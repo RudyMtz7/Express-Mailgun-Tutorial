@@ -25,7 +25,7 @@ var controllers = {
       from: 'robot@brounie.com',
       to: ['rudy@brounie.com'],
       subject: 'Prueba',
-      html: "<p>prueba</p>" +correo 
+      html: "<p>Correo es:</p>" +" "+correo 
     },function(error, body){
         console.log(error);
         res.redirect("/");
