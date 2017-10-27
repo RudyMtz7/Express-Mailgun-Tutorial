@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+logs/*
+node_modules/*
+bin/*
+prepros-6.config
+uploads/*
